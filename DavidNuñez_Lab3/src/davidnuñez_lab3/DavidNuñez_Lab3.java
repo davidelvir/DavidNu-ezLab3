@@ -217,9 +217,9 @@ public class DavidNuñez_Lab3 {
                             }
                             break;
                         case 2:
-                            System.out.println("Ingrese nombre: ");
+                            System.out.println("Ingrese primer nombre: ");
                             String nombre = sc.next();
-                            System.out.println("Ingrese indetidad: ");
+                            System.out.println("Ingrese identidad: ");
                             String id = sc.next();
                             System.out.println("Ingrese la edad: ");
                             int edad = sc.nextInt();
@@ -240,7 +240,7 @@ public class DavidNuñez_Lab3 {
                             empleados.add(new Empleado(horas,nombre,id,edad,altura,peso));
                             break;
                         case 3:
-                            System.out.println("Ingrese nombre: ");
+                            System.out.println("Ingrese primer nombre: ");
                             nombre = sc.next();
                             System.out.println("Ingrese identidad: ");
                             id = sc.next();
