@@ -42,7 +42,7 @@ public class Fisker extends Carro{
 
     @Override
     public String toString() {
-        return "Fisker{" + "modelo=" + modelo + ", convertible=" + convertible + '}';
+        return super.toString()+"Fisker{" + "modelo=" + modelo + ", convertible=" + convertible + '}';
     }
     
     

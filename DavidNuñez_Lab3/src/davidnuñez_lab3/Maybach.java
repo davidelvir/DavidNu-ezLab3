@@ -36,7 +36,7 @@ public class Maybach extends Carro{
 
     @Override
     public String toString() {
-        return "Maybach{" + "repuestos=" + repuestos + '}';
+        return super.toString()+"Maybach{" + "repuestos=" + repuestos + '}';
     }
 
     

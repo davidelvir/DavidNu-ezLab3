@@ -42,7 +42,7 @@ public class Morgan extends Carro{
 
     @Override
     public String toString() {
-        return "Morgan{" + "convertible=" + convertible + ", cabina=" + cabina + '}';
+        return super.toString()+"Morgan{" + "convertible=" + convertible + ", cabina=" + cabina + '}';
     }
     
 }

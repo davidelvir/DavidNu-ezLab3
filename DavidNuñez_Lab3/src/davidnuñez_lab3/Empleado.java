@@ -42,7 +42,7 @@ public class Empleado extends Persona {
 
     @Override
     public String toString() {
-        return "Empleado{" + "horas=" + horas + ", cliente=" + cliente + '}';
+        return super.toString()+"Empleado{" + "horas=" + horas + ", cliente=" + cliente + '}';
     }
     
     public boolean Venta(Cliente cliente, Carro carro){
