@@ -5,6 +5,7 @@
  */
 package davidnuñez_lab3;
 
+import java.awt.Color;
 import java.util.Date;
 
 /**
@@ -27,32 +28,11 @@ public class Maybach extends Carro{
     }
 
     public void setRepuestos(int repuestos) {
+        if(repuestos <= 2 && repuestos >=1){
         this.repuestos = repuestos;
+        }
     }
 
-    public int getVelocidad() {
-        return velocidad;
-    }
-
-    public void setVelocidad(int velocidad) {
-        this.velocidad = velocidad;
-    }
-
-    public int getKilomentros() {
-        return kilomentros;
-    }
-
-    public void setKilomentros(int kilomentros) {
-        this.kilomentros = kilomentros;
-    }
-
-    public int getPrecio() {
-        return precio;
-    }
-
-    public void setPrecio(int precio) {
-        this.precio = precio;
-    }
 
     @Override
     public String toString() {

@@ -16,6 +16,17 @@ public class Carro {
     protected int kilomentros;
     protected int precio;
 
+    public Carro() {
+    }
+
+    public Carro(String Serie, Date fecha, Color color, String llantas, boolean polarizado) {
+        this.Serie = Serie;
+        this.fecha = fecha;
+        this.color = color;
+        this.llantas = llantas;
+        this.polarizado = polarizado;
+    }
+
     public Carro(String Serie, Date fecha, String llantas, boolean polarizado, int velocidad, int kilomentros, int precio) {
         this.Serie = Serie;
         this.fecha = fecha;
