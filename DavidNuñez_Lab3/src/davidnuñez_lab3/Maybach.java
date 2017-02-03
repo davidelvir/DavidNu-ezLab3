@@ -1,0 +1,65 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package davidnuñez_lab3;
+
+import java.util.Date;
+
+/**
+ *
+ * @author David
+ */
+public class Maybach extends Carro{
+    private int repuestos;
+
+    public Maybach() {
+    }
+
+    public Maybach(int repuestos, String Serie, Date fecha, String llantas, boolean polarizado, int velocidad, int kilomentros, int precio) {
+        super(Serie, fecha, llantas, polarizado, velocidad, kilomentros, precio);
+        this.repuestos = repuestos;
+    }
+
+    public int getRepuestos() {
+        return repuestos;
+    }
+
+    public void setRepuestos(int repuestos) {
+        this.repuestos = repuestos;
+    }
+
+    public int getVelocidad() {
+        return velocidad;
+    }
+
+    public void setVelocidad(int velocidad) {
+        this.velocidad = velocidad;
+    }
+
+    public int getKilomentros() {
+        return kilomentros;
+    }
+
+    public void setKilomentros(int kilomentros) {
+        this.kilomentros = kilomentros;
+    }
+
+    public int getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(int precio) {
+        this.precio = precio;
+    }
+
+    @Override
+    public String toString() {
+        return "Maybach{" + "repuestos=" + repuestos + '}';
+    }
+
+    
+    
+    
+}
