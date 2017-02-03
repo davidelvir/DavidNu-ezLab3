@@ -45,5 +45,11 @@ public class Empleado extends Persona {
         return "Empleado{" + "horas=" + horas + ", cliente=" + cliente + '}';
     }
     
-    
+    public boolean Venta(Cliente cliente, Carro carro){
+        if(cliente.getDinero() >= carro.getPrecio()){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
